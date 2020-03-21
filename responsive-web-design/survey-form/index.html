@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>freeCodeCamp Responsive Web Design Projects - Build a Survey Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title" class="text-center">Customer Survey</h1>
+      <p id="description" class="description-text">
+        Please take a moment to complete our customer survey.
+      </p>
+      <form id="survey-form">
+        <div>
+          <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your Name" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your Email" class="form-control" required />
+          </div>
+          <div class="form-group">
+            <label id="number-label" for="number">Phone Number</label>
+            <input type="number" id="number" min="1" max="10" placeholder="Enter your Phone Number" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label id="dropdown-label" for="dropdown">How did you hear about our service?</label>
+            <select id="dropdown" class="form-control">
+              <option selected="selected">- select one -</option>
+              <option>Family/Friend</option>
+              <option>Internet</option>
+              <option>Television</option>
+              <option>Radio</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>How do you rate our service?</label>
+            <label><input type="radio" class="input-radio" name="radio-group" value="Awesome" />Awesome</label>
+            <label><input type="radio" class="input-radio" name="radio-group" value="Great" />Great</label>
+            <label><input type="radio" class="input-radio" name="radio-group" value="Decent" />Decent</label>
+            <label><input type="radio" class="input-radio" name="radio-group" value="Terrible" />Terrible</label>
+          </div>
+          <div class="form-group">
+            <label>Select information you would like to receive in your email?</label>
+            <label><input type="checkbox" class="input-checkbox" value="Promotions" />Promotions</label>
+            <label><input type="checkbox" class="input-checkbox" value="Updates" />Updates</label>
+          </div>
+          <div class="form-group">
+            <label id="comment-label" for="comment">Do you have any comments or suggestions?</label>
+            <textarea id="comment" class="input-textarea" placeholder="Enter your Comments"></textarea>
+          </div>
+          <div class="form-group">
+            <button type="submit" id="submit" class="submit-button">Submit</button>
+          </div>
+        </div>
+      </form>
+      <footer>A <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> Responsive Web Design Certification <a href="https://github.com/arnoldgelacio/freecodecamp-projects/tree/master/responsive-web-design/survey-form" target="_blank">project</a> built by <a href="https://freecodecamp.org/arnoldgelacio" target="_blank">Arnold Gelacio</a></footer>
+    </div>
+    <script>
+      const projectName = "survey-form";
+    </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
