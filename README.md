@@ -2,9 +2,6 @@
 
 Projects that I completed for [freeCodeCamp](https://www.freecodecamp.org) Certification Programs.
 
-[My freeCodeCamp Profile](https://freecodecamp.org/arnoldgelacio)
+- **[Responsive Web Design Certification](https://github.com/arnoldgelacio/freecodecamp-projects/tree/master/responsive-web-design)**
 
-## Responsive Web Design
-
-- [Build a Tribute Page](https://arnoldgelacio.github.io/freecodecamp-projects/responsive-web-design/tribute-page)
-- [Build a Survey Form](https://arnoldgelacio.github.io/freecodecamp-projects/responsive-web-design/survey-form)
+| [Portfolio Website](http://arnoldgelacio.com) | [freeCodeCamp Profile](https://freecodecamp.org/arnoldgelacio) |
