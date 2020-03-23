@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Responsive Web Design Projects - Build a Product Landing Page</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <a href="#welcome"><img id="header-img" src="https://arnoldgelacio.github.io/freecodecamp-projects/responsive-web-design/product-landing-page/images/logo.png" alt="Logo" width="200px" height="75px"/></a>
+        <ul>
+          <li><a href="#welcome" class="nav-link">Welcome</a></li>
+          <li><a href="#buy" class="nav-link">Buy</a></li>
+          <li><a href="#newsletter" class="nav-link">Newsletter</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="welcome" class="welcome-section">
+      <div class="cover-image"></div>
+      <div class="content-width">
+        <p>
+          The ʻukulele (OO-koo-LEH-leh) or ukelele is a member of the lute family of instruments. It generally employs four nylon strings. The ʻukulele originated in the 19th century as a Hawaiian adaptation of the Portuguese machete, a small guitar-like instrument, which was introduced to Hawaii by Portuguese immigrants, mainly from Madeira and the Azores. It gained great popularity elsewhere in the United States during the early 20th century and from there spread internationally. The tone and volume of the instrument vary with size and construction. Ukuleles commonly come in four sizes: soprano, concert, tenor, and baritone.
+        </p>
+        <div style="text-align: center; width:100%; padding: 3rem 0;">
+          <iframe id="video" src="https://www.youtube.com/embed/0n43KzcDckA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <section id="buy" class="buy-section">
+      <h1>Choose a Ukulele size</h1>
+      <div class="buy-box">
+        <div>
+          <h2>Soprano</h2>
+          <p class="product-description">The soprano size is probably what most people picture when they think of the ukulele. It is the most common size and makes the classic, traditional ukulele sound.</p>
+          <input id="soprano-button" type="submit" class="buy-button" value="Buy" />
+        </div>
+        <div>
+          <h2>Concert</h2>
+          <p class="product-description">Concert is the next step up from the soprano in size. The concert’s scale is about an inch longer, the neck is a bit wider, and overall it’s a little heavier than the soprano.</p>
+          <input id="concert-button" type="submit" class="buy-button" value="Buy" />
+        </div>
+        <div>
+          <h2>Tenor</h2>
+          <p class="product-description">Tenor is the next step up from the concert in size. The scale for the tenor is about two inches longer, the neck is just a little wider, and overall it’s a little heavier than the concert.</p>
+          <input id="tenor-button" type="submit" class="buy-button" value="Buy" />
+        </div>
+        <div>
+          <h2>Baritone</h2>
+          <p class="product-description">Baritone is the next step up from the tenor in size. The baritone has the longest scale - about three inches longer than the tenor - with the widest fret spacing of all the sizes we offer.</p>
+          <input id="baritone-button" type="submit" class="buy-button" value="Buy" />
+        </div>
+      </div>
+    </section>
+    <section id="newsletter" class="newsletter-section">
+      <h1>Don't miss out on our updates and promotions! Join our newsletter today!</h1>
+      <form id="form" action="https://www.freecodecamp.org/email-submit">
+        <input id="email" type="email" name="email" class="form-control" placeholder="Enter your Email" />
+        <input id="submit" type="submit" class="submit-button" value="Submit" />
+      </form>
+    </section>
+    <footer>A <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> Responsive Web Design Certification <a href="https://github.com/arnoldgelacio/freecodecamp-projects/tree/master/responsive-web-design/product-landing-page" target="_blank">project</a> built by <a href="https://freecodecamp.org/arnoldgelacio" target="_blank">Arnold Gelacio</a><br />03/22/2020</footer>
+    <script>
+      const projectName = "product-landing-page";
+    </script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
