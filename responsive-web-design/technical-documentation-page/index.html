@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>freeCodeCamp Responsive Web Design Projects - Build a Technical Documentation Page</title>
+  <link rel="icon" href="favicon.ico" />
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+
+<body>
+  <nav id="navbar">
+    <header class="text-center">
+      <h1>Basic Bash Commands</h1>
+    </header>
+    <ul>
+      <li><a href="#introduction" class="nav-link">Introduction</a></li>
+      <li><a href="#list_directory_contents_(ls)" class="nav-link">List directory contents (ls)</a></li>
+      <li><a href="#change_directory_(cd)" class="nav-link">Change directory (cd)</a></li>
+      <li><a href="#create_a_directory_(mkdir)" class="nav-link">Create a directory (mkdir)</a></li>
+      <li><a href="#copy_files_&_directories_(cp)" class="nav-link">Copy files & directories (cp)</a></li>
+      <li><a href="#creates_a_file_(touch)" class="nav-link">Creates a file (touch)</a></li>
+      <li><a href="#prints_text_to_terminal_(echo)" class="nav-link">Prints text to terminal (echo)</a></li>
+      <li><a href="#move_or_rename_directory_(mv)" class="nav-link">Move or rename directory (mv)</a></li>
+      <li><a href="#remove_files_(rm)" class="nav-link">Remove files (rm)</a></li>
+      <li><a href="#exit_out_of_a_directory_(exit)" class="nav-link">Exit out of a directory (exit)</a></li>
+      <li><a href="#clear_your_terminal_(clear)" class="nav-link">Clear your terminal (clear)</a></li>
+      <li class="navbar-bottom-border"><a href="#learn_more" class="nav-link">Learn more</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section id="introduction" class="main-section">
+      <header>
+        <h1>Introduction</h1>
+      </header>
+      <p>The Bash Shell (<span class="bold-text">B</span>ourne <span class="bold-text">A</span>gain <span
+          class="bold-text">SH</span>ell) is a command-line interface (CLI). This is an introduction to basic Bash commands.</p>
+    </section>
+    <section id="list_directory_contents_(ls)" class="main-section">
+      <header>
+        <h1>List directory contents (ls)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">ls</span> command is used to view all the files within the specified directory.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">ls</span> [option(s)] [file(s)]</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-a</span> (all files and folders, including ones that are hidden and start with
+            a <span class="code-syntax">.</span>)</li>
+          <li><span class="code-syntax">-l</span> (list in long format)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="change_directory_(cd)" class="main-section">
+      <header>
+        <h1>Change directory (cd)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">cd</span> command is used to change the current working directory.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">cd</span> directory_name</code>
+        </div>
+      </p>
+    </section>
+    <section id="create_a_directory_(mkdir)" class="main-section">
+      <header>
+        <h1>Create a directory (mkdir)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">mkdir</span> command is used to create directories.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">mkdir</span> [option(s)] directory_name(s)</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-p</span> (a flag which enables the command to create parent directories as
+            necessary)</li>
+          <li><span class="code-syntax">-v</span> (displays a message for every directory created)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="copy_files_&_directories_(cp)" class="main-section">
+      <header>
+        <h1>Copy files & directories (cp)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">cp</span> command is used when you need to back up your files.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">cp</span> [option(s)] current_name new_name</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-r</span> (copying directory structure)</li>
+          <li><span class="code-syntax">-b</span> (creates the backup of the destination file in the same folder with
+            the different name and in different
+            format)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="creates_a_file_(touch)" class="main-section">
+      <header>
+        <h1>Creates a file (touch)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">touch</span> command is used to create new files.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">touch</span> [option(s)] file_name(s)</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-a</span> (change the access time only)</li>
+          <li><span class="code-syntax">-m</span> (change the modification time only)</li>
+          <li><span class="code-syntax">-r</span> (use the access and modification times of file)</li>
+          <li><span class="code-syntax">-d</span> (update the access and modification times)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="prints_text_to_terminal_(echo)" class="main-section">
+      <header>
+        <h1>Prints text to terminal (echo)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">echo</span> command is used to print text to the terminal window and is typically used
+        in shell scripts
+        and batch files to output status text to the screen or a computer file.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">echo</span> [option(s)] [string(s)]</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-e</span> (enable interpretation of backslash escapes)</li>
+          <li><span class="code-syntax">-n</span> (do not print the trailing newline)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="move_or_rename_directory_(mv)" class="main-section">
+      <header>
+        <h1>Move or rename directory (mv)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">mv</span> command is used to move or rename directories.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">mv</span> [option(s)] argument(s)</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-f</span> (force move them and overwrite files without checking with the user)
+          </li>
+          <li><span class="code-syntax">-i</span> (prompt confirmation before overwriting files)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="remove_files_(rm)" class="main-section">
+      <header>
+        <h1>Remove files (rm)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">rm</span> command is used to remove files.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">rm</span> [option(s)] file_name</code>
+        </div>
+      </p>
+      <p>
+        Common options:
+        <ul class="code-list">
+          <li><span class="code-syntax">-i</span> (prompt before every removal)</li>
+        </ul>
+      </p>
+    </section>
+    <section id="exit_out_of_a_directory_(exit)" class="main-section">
+      <header>
+        <h1>Exit out of a directory (exit)</h1>
+      </header>
+      <p>
+        The <span class="code-syntax">exit</span> command is used to close a terminal window, end the execution of a
+        shell
+        script, or log you out of an SSH remote access session.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">exit</span></code>
+        </div>
+      </p>
+    </section>
+    <section id="clear_your_terminal_(clear)" class="main-section">
+      <header>
+        <h1>Clear your terminal (clear)</h1>
+      </header>
+      <p>
+        <span class="code-syntax">clear</span> command is used to clear all previous commands and output from consoles
+        and terminal windows.
+      </p>
+      <p>
+        <p>
+          Syntax:
+        </p>
+        <div class="code">
+          <code><span class="code-syntax">clear</span></code>
+        </div>
+      </p>
+    </section>
+    <section id="learn_more" class="main-section">
+      <header>
+        <h1>Learn more</h1>
+      </header>
+      <p>
+        Here are other resources to learn more about Bash.
+      </p>
+      <p>
+        <ul>
+          <li><a href="https://www.educative.io/blog/bash-shell-command-cheat-sheet" target="_blank">Bash cheat sheet:
+              Top 25 commands and creating custom commands</a></li>
+          <li><a href="https://courses.cs.washington.edu/courses/cse390a/14au/bash.html" target="_blank">Bash Shell
+              Reference</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" target="_blank">Wikipedia - Bash (Unix
+              shell)</a></li>
+        </ul>
+      </p>
+    </section>
+    <footer>A <a href="https://www.freecodecamp.org" target="_blank">freeCodeCamp</a> Responsive Web Design
+      Certification <a
+        href="https://github.com/arnoldgelacio/freecodecamp-projects/tree/master/responsive-web-design/technical-documentation-page"
+        target="_blank">project</a> built by <a href="https://freecodecamp.org/arnoldgelacio" target="_blank">Arnold
+        Gelacio</a><br />03/23/2020</footer>
+  </main>
+  <script>
+    const projectName = "technical-docs-page";
+  </script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
