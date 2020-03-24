@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap");
+
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
+/*********************** Follow Section ***********************/
+
+#icons {
+  padding-top: 2rem;
+}
+
+@media (min-width: 320px) {
+  #icons a {
+    flex-direction: row;
+    justify-content: center;
+    padding: 3rem;
+  }
+
+  #icons div {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .follow-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 5rem 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  #icons a {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  #icons div {
+    display: inline-block;
+    width: 20%;
+    margin: 0;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+  }
+
+  .follow-section {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 20rem 3rem;
+  }
+}
+
+/*********************** Footer Section ***********************/
+
+footer {
+  background-color: #4e4e4e;
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 3rem 2rem 3rem 2rem;
+  text-align: center;
+}
+
+footer a:link {
+  color: #ffffff;
+}
+
+footer a:visited {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #cde3eb;
+}
+
+footer a:active {
+  color: #cde3eb;
+}
+
+/*********************** Nav ***********************/
+
+nav {
+  font-size: 1.3rem;
+  overflow: hidden;
+  background-color: #6e828a;
+  padding: 2rem 0 2rem 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+nav a:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #143a52;
+  text-decoration: underline;
+}
+
+nav a:active {
+  color: #143a52;
+  text-decoration: none;
+}
+
+nav li {
+  display: inline;
+  margin: 1rem;
+  padding: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*********************** Projects Section ***********************/
+
+.project-box img {
+  border: 1px;
+  border-color: #143a52;
+  border-style: solid;
+}
+
+@media (min-width: 320px) {
+  .project-box {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0rem 4rem 5rem 4rem;
+  }
+
+  .project-box div {
+    display: inline-block;
+    width: 100%;
+    margin: 10px;
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 25px;
+  }
+
+  .projects-section {
+    background-color: #cde3eb;
+    text-align: center;
+    padding: 9rem 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .project-box {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 3rem 3rem 3rem;
+  }
+
+  .project-box div {
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    padding: 2rem 0 2rem 0;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 25px;
+  }
+
+  .projects-section {
+    background-color: #cde3eb;
+    text-align: center;
+    padding: 10rem 2rem;
+  }
+}
+
+.project-tile {
+  color: #143a52;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/*********************** Welcome Section ***********************/
+
+.welcome-section {
+  background-color: #143a52;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section div {
+  padding: 0 3rem 0 3rem;
+}
